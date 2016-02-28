@@ -11,3 +11,5 @@ In order to use it:
 2. Run `build_image.sh`. It will build a Docker image with `hello-world-service` binary inside. Note that this image is built `FROM scratch` (zero-sized image), so it doesn't carry anything else apart from the binary file. This image size is about 6.5MB (!).
 
 3. Run `run.sh`. This will just run a container with the binary file built before.
+
+Image with this service is also available through Docker Hub. To download it, run `docker pull tomkopczynski/hello-world-service`.
