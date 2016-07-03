@@ -24,3 +24,5 @@ _testmain.go
 *.prof
 
 hello-world-service
+
+.idea
